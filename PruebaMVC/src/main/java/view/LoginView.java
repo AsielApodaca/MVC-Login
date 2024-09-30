@@ -4,6 +4,8 @@
  */
 package view;
 
+import java.awt.event.ActionListener;
+import javax.swing.JOptionPane;
 import model.LoginModel;
 
 /**
@@ -20,6 +22,22 @@ public class LoginView extends javax.swing.JFrame {
     public LoginView(LoginModel model) {
         initComponents();
         this.model = model ;
+    }
+    
+     public String getUsername() {
+        return txtUser.getText();
+    }
+
+    public String getPassword() {
+        return txtPassword.getText();
+    }
+
+    public void addLoginListener(ActionListener listener) {
+        btnLogin.addActionListener(listener);
+    }
+
+    public void showMessage(String message) {
+        JOptionPane.showMessageDialog(this, message);
     }
 
     /**

@@ -32,6 +32,8 @@ public class LoginModel {
         this.password = password;
     }
     
-    
+     public boolean validateCredentials() {
+        return "admin".equals(user) && "password".equals(password);
+    }
     
 }
