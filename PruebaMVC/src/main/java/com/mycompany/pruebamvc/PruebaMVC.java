@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.pruebamvc;
 
 import controller.LoginController;
@@ -10,7 +6,7 @@ import view.LoginView;
 
 /**
  *
- * @author olive
+ * @author Oliver Inzunza, Hisamy Cinco, Gael Castro, Asiel Apodaca
  */
 public class PruebaMVC {
 

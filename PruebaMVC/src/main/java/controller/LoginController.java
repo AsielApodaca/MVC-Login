@@ -11,7 +11,7 @@ import view.LoginView;
 
 /**
  *
- * @author olive
+ * @author Oliver Inzunza, Hisamy Cinco, Gael Castro, Asiel Apodaca
  */
 public class LoginController {
 

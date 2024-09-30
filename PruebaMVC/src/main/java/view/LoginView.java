@@ -10,7 +10,7 @@ import model.LoginModel;
 
 /**
  *
- * @author olive
+ * @author Oliver Inzunza, Hisamy Cinco, Gael Castro, Asiel Apodaca
  */
 public class LoginView extends javax.swing.JFrame {
 

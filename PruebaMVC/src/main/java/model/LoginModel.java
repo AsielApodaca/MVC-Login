@@ -6,7 +6,7 @@ package model;
 
 /**
  *
- * @author olive
+ * @author Oliver Inzunza, Hisamy Cinco, Gael Castro, Asiel Apodaca
  */
 public class LoginModel {
     
